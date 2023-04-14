@@ -36,8 +36,5 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(recyclerViewAdapter);
 
-        //전달받은 인텐트로 CctvPlayer 액티비티 실행
-        startActivity(getIntent());
-
     }
 }
